@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kelta Edits v1.0</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" type="text/css" href="KEditor.css">
+        <script type="text/javascript" src="KEditor.js">
+
+		</script>
+	</head>
+	<body onload="start();">
+		<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+	<a href="file:///E:/Kelta%20King/pages/blog.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Quotation</a>
+    <a href="file:///E:/Kelta%20King/pages/blog.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Blogs</a>
+	<a href="file:///E:/Kelta%20King/pages/Contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+	
+  </div>
+</nav>
+<span class="w3-button w3-top w3-blue w3-xxlarge w3-text-white w3-hover-text-black w3-hover-white" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+		<div class="w3-container w3-padding w3-blue Name"><h1>HTML Code editor</h1>
+		<div class="byname w3-large w3-padding-right w3-padding-top w3-padding-bottom">-by KeltaKing
+		
+		</div>
+		
+		</div>
+		<div class="w3-row">
+			<div class="w3-half w3-hide-small w3-large w3-padding w3-center" id="code">Code:</div>
+			<div class="w3-half w3-hide-small w3-large w3-padding w3-center" id="result">Result:</div>
+		</div>
+        <div id="container" class="w3-row">
+            <div id="container">
+            <div id="editor"></div>
+            <iframe id='iframe' frameBorder="0"></iframe>
+        </div>
+        </div>
+		<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+			<a href="https://www.facebook.com/kushang.shah.37"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+			<a href="https://www.instagram.com/kelta_king_99/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+			<a href="https://twitter.com/KushangShah13"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+			<a href="https://www.linkedin.com/in/kushang-shah-85a250181/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+			<a href="https://www.quora.com/profile/Kushang-Shah-KeltaKing"><i class="fa fa-quora w3-hover-opacity"></i></a>
+			<p class="w3-medium">&#169; <a href="#" target="_blank" class="w3-hover-text-green">Kushang Shah</a></p>
+		</footer>
+		
+<script>
+		function openNav() {
+			document.getElementById("mySidebar").style.width = "40%";
+			document.getElementById("mySidebar").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidebar").style.display = "none";
+		}	
+</script>
+	</body>
+</html>
