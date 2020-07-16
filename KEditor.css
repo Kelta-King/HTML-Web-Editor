@@ -1,3 +1,37 @@
-html,body{margin:0; width:100%;padding:0; height:100%;}.noplace{background-color:;}#editor {height: 80%;width:50%;display:inline-block;border:1px solid black;}
-#iframe {height:80%;display:inline-block;width:49%;border:1px solid black;}#container{height:90%;width:auto;white-space : nowrap;overflow : hidden;padding-left:0.3%;}
-#code{background-color:black;opacity:80%;color:white;}#result{background-color:black;opacity:80%;color:white;}
+html,body{
+  margin:0; 
+  width:100%;
+  padding:0; 
+  height:100%;
+}
+.noplace{
+  background-color:;
+}
+#editor {
+  height: 80%;
+  width:50%;
+  display:inline-block;
+  border:1px solid black;
+}
+#iframe {
+  height:80%;
+  display:inline-block;
+  width:49%;
+  border:1px solid black;
+}
+#container{
+  height:90%;
+  width:auto;
+  white-space:nowrap;
+  overflow:hidden;
+  padding-left:0.3%;}
+#code{
+  background-color:black;
+  opacity:80%;
+  color:white;
+}
+#result{
+  background-color:black;
+  opacity:80%;
+  color:white;
+}
